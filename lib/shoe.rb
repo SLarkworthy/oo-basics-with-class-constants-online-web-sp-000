@@ -8,6 +8,7 @@ class Shoe
     @brand = brand
     if !BRANDS.inclue?(brand)
       BRANDS << brand
+    end
   end
   
 
